@@ -1,6 +1,6 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: "http://cduiwwa-anonymous-8081.exp.direct",
-  timeout: 7000,
-})
+  baseURL: "https://a652-186-215-200-82.ngrok-free.app",
+  timeout: 700,
+})  
