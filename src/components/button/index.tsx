@@ -8,7 +8,7 @@ import {
 import { IconProps as TablerIconProps } from "@tabler/icons-react-native"
 
 import { s } from "./styles"
-import { colors, fontFamily } from "@/styles/theme"
+import { colors } from "@/styles/theme"
 
 type ButtonProps = TouchableOpacityProps & {
   isLoading?: boolean
@@ -46,7 +46,7 @@ function Icon({
   icon: Icon
 }: IconProps) {
   return (
-    <Icon />
+    <Icon style={{ color: colors.gray[100]}} />
   )
 }
 
